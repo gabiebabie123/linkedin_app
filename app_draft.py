@@ -123,7 +123,7 @@ age = st.number_input("What is your age?",
 st.write("Age given =", age)
 
 #INSERTTING CODE FROM QUESTIONS#
-s = pd.read_csv("C:/Users/mende/OneDrive/Georgetown/Programming 2/social_media_usage.csv")
+s = pd.read_csv("social_media_usage.csv")
 
 #Clean Function
 def clean_sm(x):
